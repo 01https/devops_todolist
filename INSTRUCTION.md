@@ -21,5 +21,3 @@ My docker reposetory:
 ```
 https://hub.docker.com/repository/docker/apihunter/todoapp/general
 ```
-
-You can now browse the [API](http://localhost:8000/api/) or start on the [landing page](http://localhost:8000/).
