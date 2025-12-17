@@ -9,7 +9,7 @@ COPY . .
 FROM python:${PYTHON_VERSION}
 WORKDIR /app
 
-ENV PYTHONBUFFERED=1
+ENV PYTHONUNBUFFERED=1
 
 COPY --from=base /app .
 RUN pip install -r requirements.txt && \
